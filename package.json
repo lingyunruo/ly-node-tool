@@ -1,6 +1,6 @@
 {
   "name": "l-tool-functions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "一些简单的node函数作为工具使用",
   "main": "index.js",
   "scripts": {
