@@ -71,7 +71,7 @@ function copyDirSync(src, dst, ignoreList) {
 				let stat = fs.statSync(fileDir);
 
 				if (stat.isFile()) {
-					copyFile(fileDir, tarDir);
+					copyFileSync(fileDir, tarDir);
 				} else if (stat.isDirectory()) {
 					fs.mkdirSync(tarDir);
 					copyDirSync(fileDir, tarDir);
