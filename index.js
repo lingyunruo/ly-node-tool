@@ -44,7 +44,7 @@ function rmDirSync(dir) {
 }
 
 // 复制一个文件
-function copyFile(src, dst) {
+function copyFileSync(src, dst) {
 	try {
 		let resdStream = fs.createReadStream(src);
 		let writeStream = fs.createWriteStream(dst);

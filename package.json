@@ -1,5 +1,5 @@
 {
-  "name": "ly-node-tool",
+  "name": "l-tool-functions",
   "version": "0.0.1",
   "description": "一些简单的node函数作为工具使用",
   "main": "index.js",
